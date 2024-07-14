@@ -8,7 +8,7 @@ As a remote sensing analyst in a *humanitarian organization*, your tasks involve
 
 ## Objective
 
-The objective of this project is to develop an automated tool to identify flooded areas in satellite imagery using Python and ArcGIS tools. Initially, the analysis will be conducted in ArcGIS Pro using Python code within a notebook environment. Later, the code will be converted into a script tool that can be used by analysts who may not have a programming background.
+The objective of this project is to *[develop an automated tool to identify flooded areas in satellite imagery](https://github.com/figmulberry/classifying-flood-imagery/blob/main/AnalyzeFlooding/Custom_Tools.atbx)* using Python and ArcGIS tools. Initially, the analysis will be conducted in ArcGIS Pro using Python code within a notebook environment. Later, the code will be converted into a script tool that can be used by analysts who may not have a programming background.
 
 ## Requirements
 - You must have an ArcGIS Spatial Analyst license to use this notebook.
@@ -31,7 +31,9 @@ The imagery you'll use is a pair of clipped scenes from the *[Sentinel](https://
 
 ### Download & Extract the Imagery
 
-You'll download the *[Sentinel_2_Clipped.zip](https://arcgis.com/sharing/rest/content/items/9cfeb37e929a4b0484be5235da16e0bf/data)* imagery data for the analysis. The *Sentinel_2_Clipped.zip* file contains a folder named *Sentinel_2_Clipped*.
+You'll download the *[Sentinel_2_Clipped.zip](https://github.com/figmulberry/classifying-flood-imagery/tree/main/AnalyzeFlooding)* imagery data for the analysis. The *Sentinel_2_Clipped.zip* file contains a folder named *Sentinel_2_Clipped*.
+
+If the above option does not work, here is an alternative data source: *[Download Analysis Data](https://arcgis.com/sharing/rest/content/items/9cfeb37e929a4b0484be5235da16e0bf/data)*.
 
 1. In the file explorer, create a folder on your C:\ drive named `Lessons`.
 2. In the `Lessons` folder, create a folder named `AnalyzeFlooding`.
@@ -41,9 +43,9 @@ You'll download the *[Sentinel_2_Clipped.zip](https://arcgis.com/sharing/rest/co
 
 We have two Jupyter notebooks that are integral to this project:
 
-1. *[Classify_Imagery_with_Python.ipynb](link_to_the_notebook)*: In this notebook, we create a script that runs locally in ArcGIS Pro using Python code within a notebook environment. This notebook includes the initial analysis and code development to identify flooded areas in satellite imagery.
+1. *[Part_1_Classify_Imagery_with_Python.ipynb](https://github.com/figmulberry/classifying-flood-imagery/blob/main/Part_1_Classify_Imagery_with_Python.ipynb)*: In this notebook, we create a script that runs locally in ArcGIS Pro using Python code within a notebook environment. This notebook includes the initial analysis and code development to identify flooded areas in satellite imagery.
 
-2. *[Build_a_script_tool.ipynb](link_to_the_notebook)*: In this notebook, we turn the aforementioned script into a script tool. This notebook includes the steps to modify the code for use in a script tool, export the script to a Python file, and create a script tool in ArcGIS Pro.
+2. *[Part_2_Build_a_script_tool.ipynb](https://github.com/figmulberry/classifying-flood-imagery/blob/main/Part_2_Build_a_script_tool.ipynb)*: In this notebook, we turn the aforementioned script into a script tool. This notebook includes the steps to modify the code for use in a script tool, export the script to a Python file, and create a script tool in ArcGIS Pro.
 
 These notebooks can be found in the repository and are essential for both the initial analysis and the conversion of the script into a usable tool for non-programmers.
 
@@ -58,7 +60,7 @@ Converting a script to a script tool allows non-programmers to use your analysis
 1. *Modify the Code for Use in the Script Tool*: Make modifications to allow the script tool to pass parameter values to the Python code. In the original script, set several variables at the beginning of the code, including `before_img_folder`, `after_img_folder`, and `final_output_folder`. These variables must be changed to accept input when the script tool is run.
 2. *Export the Notebook's Contents to a Python (.py) File*: Export the modified code to a Python file.
 3. *Create a Toolbox*: In ArcGIS Pro, create a new toolbox.
-4. *Create a Script Tool in the Toolbox**: Add a new script tool to the toolbox.
+4. *Create a Script Tool in the Toolbox*: Add a new script tool to the toolbox.
 5. *Set Parameters for the Tool*: Configure the parameters for the script tool to accept inputs.
 6. *Document the Tool*: Add metadata and documentation to the script tool.
 7. *Connect the Tool to the Python Script*: Link the script tool to the exported Python script.
@@ -67,7 +69,11 @@ Converting a script to a script tool allows non-programmers to use your analysis
 
 ## Results
 
-*Write the results here...(inlcude the images)*
+![Garissa Flooding Analysis, May 2024](https://github.com/figmulberry/classifying-flood-imagery/blob/main/ImageFiles/GarissaFloodingEvent2024.png)
+
+This example shows an example of severe flooding which impacted *Garissa Township*, Kenya. In the months of April and May 2024 – various regions of the world experienced mass destruction of property and loss of lives. Kenya experienced significant flooding in Nairobi, Nakuru, and Garissa Counties, leading to loss of lives, extensive damages, and displacement of people and animals. Similarly, Brazil faced devastating floods in *Rio Grande do Sul*, affecting the state and adjacent cities.
+
+For the map shown above, I conducted an analysis to classify satellite imagery and identify flooded areas in Garissa County, specifically near the Garissa-Dadaab Road crossing of the Tana River. Using `Sentinel-2 Level-2A imagery`, I employed ArcGIS Pro to compare pre- and post-flood satellite imageries. By utilizing specific spectral bands, I generated composite images and applied thresholding techniques to distinguish water from non-water pixels. This process allowed me to create a confidence raster and pinpoint newly inundated areas. This workflow is important for effective flood management and response strategies.
 
 ## Conclusion
 
