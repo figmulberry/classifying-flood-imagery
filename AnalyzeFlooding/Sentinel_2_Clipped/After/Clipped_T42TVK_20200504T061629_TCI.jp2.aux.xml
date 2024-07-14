@@ -1,0 +1,139 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="Clayers">12</MDI>
+    <MDI key="Clevels">5</MDI>
+    <MDI key="Corder">PCRL</MDI>
+    <MDI key="Creversible">false</MDI>
+    <MDI key="Cuse_eph">false</MDI>
+    <MDI key="Cuse_sop">false</MDI>
+    <MDI key="DataType">Generic</MDI>
+  </Metadata>
+  <Metadata domain="xml:gml.root-instance" format="xml">
+    <gml:FeatureCollection xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/gmlJP2Profile/1.0.0/gmlJP2Profile.xsd">
+      <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs:EPSG::32642">
+          <gml:lowerCorner>428380 4448890</gml:lowerCorner>
+          <gml:upperCorner>479190 4500000</gml:upperCorner>
+        </gml:Envelope>
+      </gml:boundedBy>
+      <gml:featureMember>
+        <gml:FeatureCollection>
+          <gml:featureMember>
+            <gml:RectifiedGridCoverage dimension="2" gml:id="RGC0001">
+              <gml:rectifiedGridDomain>
+                <gml:RectifiedGrid dimension="2">
+                  <gml:limits>
+                    <gml:GridEnvelope>
+                      <gml:low>0 0</gml:low>
+                      <gml:high>5080 5110</gml:high>
+                    </gml:GridEnvelope>
+                  </gml:limits>
+                  <gml:axisName>x</gml:axisName>
+                  <gml:axisName>y</gml:axisName>
+                  <gml:origin>
+                    <gml:Point gml:id="P0001" srsName="urn:ogc:def:crs:EPSG::32642">
+                      <gml:pos>428385 4499995</gml:pos>
+                    </gml:Point>
+                  </gml:origin>
+                  <gml:offsetVector srsName="urn:ogc:def:crs:EPSG::32642">10 0</gml:offsetVector>
+                  <gml:offsetVector srsName="urn:ogc:def:crs:EPSG::32642">0 -10</gml:offsetVector>
+                </gml:RectifiedGrid>
+              </gml:rectifiedGridDomain>
+              <gml:rangeSet>
+                <gml:File>
+                  <gml:rangeParameters />
+                  <gml:fileName>gmljp2://codestream/0</gml:fileName>
+                  <gml:fileStructure>Record Interleaved</gml:fileStructure>
+                </gml:File>
+              </gml:rangeSet>
+            </gml:RectifiedGridCoverage>
+          </gml:featureMember>
+        </gml:FeatureCollection>
+      </gml:featureMember>
+    </gml:FeatureCollection>
+  </Metadata>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <NoDataValue>2.56000000000000E+02</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>257.5</HistMax>
+        <BucketCount>258</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|4|17|95|349|1428|4661|11613|23773|41946|63901|88516|116371|149406|178746|195941|205387|211118|215800|224016|237623|245468|245713|245082|246823|244302|244104|246680|247992|247973|244703|239877|234124|231708|229392|227360|223555|221084|219045|217360|215592|215316|215142|214244|213743|213579|211672|209861|207966|205273|202152|199995|196547|193223|192170|189058|186891|184576|183224|181120|179488|176844|174286|173047|171279|170557|168410|167179|167043|164893|164777|162963|161557|161094|159332|158838|158966|157298|156794|157106|156528|155936|155753|154718|154206|152920|153314|151376|150755|150092|149274|148355|146060|145351|144155|142776|141411|140358|138920|137039|135767|135603|133576|133228|132724|132705|133210|132280|133491|133414|133458|134540|134539|134526|136256|137557|140274|142312|145115|146934|150942|153048|156262|159768|162876|166408|169114|172198|175052|178608|181329|182375|181977|179424|176827|172002|167240|163254|157158|152881|148256|143422|138724|134117|130374|125877|121938|117321|113529|108066|103020|97526|91151|86416|81460|76550|71691|67310|62880|58392|54646|50059|46845|42722|39376|36220|33123|30593|28066|25917|23805|22081|20107|18800|17492|15860|14583|13081|11632|10422|9163|8167|7284|6522|5920|5229|4580|4154|3828|3345|3019|2622|2325|2052|1756|1618|1345|1126|1031|920|818|720|667|540|500|433|389|343|299|260|272|261|274|252|257|255|260|229|270|296|234|264|243|226|279|1053|6476|0|2090</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JP2000</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="SourceBandIndex">0</MDI>
+      <MDI key="STATISTICS_COVARIANCES">1967.19641810278,1146.812356116839,778.4802953993587</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">257</MDI>
+      <MDI key="STATISTICS_MEAN">107.51662965352</MDI>
+      <MDI key="STATISTICS_MINIMUM">24</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">44.353088033448</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <NoDataValue>2.56000000000000E+02</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>257.5</HistMax>
+        <BucketCount>258</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|1|16|80|135|216|338|365|642|1004|1805|2742|3272|4773|7692|13559|23980|39772|61042|88854|119553|150715|176482|200048|219729|240748|257547|274460|285762|294636|302362|309183|315308|324484|330379|336123|342594|345930|351280|355317|357373|358293|357155|352314|349893|344587|338913|334917|329398|328809|330764|331540|329809|329742|330601|327774|324502|321747|320939|318569|314218|311057|305200|301383|295529|287797|279635|274190|270751|265510|260829|256629|252686|249464|245025|240562|236876|234883|233584|231190|229172|227045|226405|226708|228861|233127|237205|241653|244337|248899|253828|258604|261037|260370|257943|254998|248714|242027|234992|228503|219643|208474|197884|188365|178174|168098|157868|146722|137677|128015|118533|107124|97310|88609|80428|73717|66789|60495|53623|46981|41253|37296|33375|30195|26911|23975|21341|19120|16952|14771|12879|11008|9732|8473|7206|6349|5649|4707|4089|3618|3114|2668|2280|1943|1613|1449|1223|1140|1009|910|840|686|680|601|604|522|473|437|383|411|426|362|347|344|342|331|344|333|298|329|315|351|293|321|274|259|245|269|219|211|232|203|180|181|197|148|129|122|110|103|90|79|80|88|86|109|81|82|86|84|97|83|72|92|70|89|62|63|62|56|57|265|3353|0|1777</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JP2000</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="SourceBandIndex">1</MDI>
+      <MDI key="STATISTICS_COVARIANCES">1146.812356116839,724.9519528213581,504.4200169700179</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">257</MDI>
+      <MDI key="STATISTICS_MEAN">106.61723291534</MDI>
+      <MDI key="STATISTICS_MINIMUM">33</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">26.924931807181</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <NoDataValue>2.56000000000000E+02</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>268.5</HistMax>
+        <BucketCount>269</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|1|1|2|5|22|226|1200|2947|7217|19581|50728|104365|169528|233589|275669|292303|298863|300160|300612|303904|313132|329199|342427|351683|358195|363276|364545|361954|361066|358457|352057|347544|341012|337202|335052|330924|328988|327389|326671|327576|330912|332612|333898|332513|331407|330402|328088|328635|331971|336715|340481|348401|355290|367675|382548|400372|425894|465878|531501|645125|712787|616058|508399|449033|418497|396710|380424|368690|360089|351756|342533|329815|312820|297460|282609|268621|256373|241941|226060|206807|185681|165048|147088|130604|114732|99233|85076|72061|61205|52162|44831|39687|34498|29722|25670|22319|19038|15980|13492|11589|9795|8344|7326|6111|5400|4560|4005|3373|2897|2696|2373|2179|2076|1990|1827|1711|1531|1467|1287|1090|1035|962|861|800|779|718|624|636|603|593|536|502|511|482|447|491|419|421|421|384|412|392|328|367|343|280|290|285|279|253|187|191|157|155|144|129|118|136|121|114|121|121|102|116|114|98|99|104|88|98|102|93|89|98|89|72|88|90|67|69|70|63|74|61|65|63|62|51|57|54|51|40|46|35|44|41|42|62|48|126|2553|0|1737|5|7|5|3|3|5|4|7|26|33|12</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JP2000</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="SourceBandIndex">2</MDI>
+      <MDI key="STATISTICS_COVARIANCES">778.4802953993587,504.4200169700179,428.4110698113411</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">268</MDI>
+      <MDI key="STATISTICS_MEAN">103.62723307791</MDI>
+      <MDI key="STATISTICS_MINIMUM">45</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">20.698093385898</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
